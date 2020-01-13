@@ -1,0 +1,1 @@
+find /var/log/v2ray/error.log -mtime +7 -name “*.*” -exec rm -rf {} \;
